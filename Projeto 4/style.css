@@ -1,0 +1,42 @@
+html{
+    background-color: gray;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: #ebe9e9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+
+}
+
+.box{
+    border-radius: 5%;
+    width: 60%;
+    height: 90%;
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center; 
+}
+
+.box_row{
+    border-radius: 5%;
+    width: 50%;
+    height: 100%;
+    background: #ffd89c;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center; 
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
