@@ -1,0 +1,129 @@
+html{
+    background-color: #5865F2;
+    font-family: "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#plano_fundo{
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+}
+
+.login{
+    padding: 40px 32px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #36393F;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 1px #424242;
+    width: 720px;
+    height: 330px;
+    margin: auto;
+}
+
+#titulo{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+#sub_titulo{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 15px;
+    color: #AAACB0;
+}
+
+.form{
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 1000;
+    color: #AAACB0;
+}
+
+.entry{
+    margin-top: 10px;
+    padding: 0px 10px;
+    width: 100%;
+    box-sizing: border-box;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #202225;
+    border: none;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.808);
+}
+.form > strong{
+    color: #B33F43;
+}
+
+#senha{
+    margin-top: 15px;
+}
+
+#esquecer{
+    display: inline-block;
+    font-size: 13px;
+    margin: 10px 0px;
+    color: #05C7F2;
+    text-decoration: none;
+}
+
+#button{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: #5865F2;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    height: 40px;
+}
+
+#registrar{
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 13px;
+    color: #AAACB0;
+}
+#registrar > a{
+    display: inline-block;
+    margin: 0px;
+    text-decoration: none;
+    color: #05C7F2;
+}
+#space{
+    width: 100px;
+}
+
+.qrcode{
+    margin-top: 20px;
+    width: 400px;
+    text-align: center;
+}
+
+#qrcode{
+    background-color: white;
+    border-radius: 5px;
+    width: 175px;
+}
+
+#cod{
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+}
+
+#escan{
+    font-size: 15px;
+    color: #AAACB0;
+}
