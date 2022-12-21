@@ -1,0 +1,123 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F0F2F5;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    margin: auto;
+    background-color: white;
+    width: 100%;
+    height: 250px;
+    font-size: 12px;
+    color: #8A8D91;
+}
+li > a {
+    text-decoration: none;
+    color: #8A8D91;
+    padding-left: 20px;
+    width: 100px;
+}
+.footer{
+    margin: auto;
+    width: 1000px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.face{
+    width: 520px;
+    margin-top: -107px;
+}
+
+#titulo{
+    font-size: 60px;
+    font-weight: bolder;
+    color: #1877F2;
+    margin-bottom: 0px;
+}
+#sub_titulo{
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.login{
+    text-align: center;
+    width: 400px;
+    height: 350px;
+    margin-left: 60px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 1px #E0E2E5;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.form{
+    border-color: #5a5a5a3b;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    margin: 5px 0px;
+}
+
+#entrar{
+    border-radius: 5px;
+    border: none;
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    background-color: #1877F2;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 10px 0px;
+}
+
+#esquecer{
+    display: inline-block;
+    font-size: 14px;
+    color: #1877F2;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+#space{
+    margin: auto;
+    margin-bottom: 10px;
+    width: 70%;
+    height: 1px;
+    background-color: #5a5a5a3b;
+    border-color: #5a5a5a3b;
+}
+
+#nova_conta{
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    width: 50%;
+    height: 50px;
+    background-color: #4CBF2C;
+    font-size: 16px;
+    font-weight: bolder;
+    color: white;
+    margin-top: 15px;
+}
+
+#conta_empresa{
+    text-align: center;
+    margin-left: 60px;
+    font-size: 14px;
+    width: 400px;
+}
+#conta_empresa > p > strong > a{
+    text-decoration: none;
+    color: black;
+}
