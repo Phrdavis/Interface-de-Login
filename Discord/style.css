@@ -87,6 +87,13 @@ html{
     border-radius: 4px;
     width: 100%;
     height: 40px;
+    transition: 0.2s;
+}
+#button:hover{
+    background-color: #4b55c2;
+}
+#button:active{
+    background-color: #353c8a;
 }
 
 #registrar{
